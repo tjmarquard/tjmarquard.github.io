@@ -1,21 +1,12 @@
-import { useState } from 'react'
 import timPicture from './assets/PXL_20251018_165821482.jpg';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <h1>Fit Spouse Running Club</h1>
       <div>
-        <a>
-          <img src={timPicture} className="logo" alt="Tim Picture" />
-        </a>
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+          <img src={timPicture} className="main-image" alt="Tim Picture" />
       </div>
     </>
   )

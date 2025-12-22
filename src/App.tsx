@@ -1,4 +1,4 @@
-import image from './assets/PXL_20251018_165821482.jpg';
+import image from './assets/main_photo.jpg';
 import './App.css'
 
 function App() {

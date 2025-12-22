@@ -2,6 +2,7 @@
   "name": "fit-spouse-running-club",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://tjmarquard.github.io/tjmarquard.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",

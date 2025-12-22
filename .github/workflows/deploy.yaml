@@ -32,7 +32,7 @@ jobs:
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build' # Change to './dist' if using Vite
+          path: './dist' # Change to './dist' if using Vite
 
       - name: Deploy to GitHub Pages
         id: deployment
